@@ -1,4 +1,4 @@
-#include <iostream>
+/*#include <iostream>
 #include <string>
 #include <iomanip>
 #include"mpi.h"
@@ -27,9 +27,9 @@ void printMatrix(const int *arr, int n, int m)
 int main(int argc, char *argv[])
 {
 	int procNum, procRank;
-	int columnA = argc == 1 ? 4 : std::stod(argv[2]);
-	int rowB = argc == 1 ? 4 : std::stod(argv[2]);
-	int columnB = argc == 1 ? 5 : std::stod(argv[3]);
+	int columnA = argc == 1 ? 3000 : std::stod(argv[2]);
+	int rowB = argc == 1 ? 3000 : std::stod(argv[2]);
+	int columnB = argc == 1 ? 3000 : std::stod(argv[3]);
 
 	int *matrixA = nullptr;
 	int *matrixB = nullptr;
@@ -132,4 +132,4 @@ int main(int argc, char *argv[])
 
 	MPI_Finalize();
 	return 0;
-}
+}*/
